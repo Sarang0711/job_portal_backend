@@ -1,0 +1,12 @@
+GET http://localhost:3001/users
+
+###
+POST http://localhost:3001/auth/register
+Content-Type: application/json
+
+{
+    "username": "extrauser",
+    "password": "123",
+    "name" : "prthamesh"
+
+}
